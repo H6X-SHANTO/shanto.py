@@ -42,7 +42,7 @@ from datetime import datetime
 from time import sleep
 from time import sleep as waktu
 
-mport os
+import os
 try:
     import requests
 except ImportError:

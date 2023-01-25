@@ -165,7 +165,7 @@ logo = ("""\033[1;32m
 try:
     key1=open("/storage/emulated/0/android.txt",'r').read()
 except IOError:
-    kok=open("/storage/emulated/0/android8.txt",'w')
+    kok=open("/storage/emulated/0/android.txt",'w')
     myid=uuid.uuid4().hex[:12]
     f="COBRA-LINUX"
     key=myid+f

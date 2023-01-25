@@ -162,31 +162,9 @@ logo = ("""\033[1;32m
 \033[1;95m[\033[1;93mâœ”ï¸Ž\033[1;95m]\033[1;93m VERSION \033[1;91m : \033[1;91m0.0.3
 \033[1;93mâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€\n""")
 
-try:
-    key1=open("/storage/emulated/0/android.txt",'r').read()
-except IOError:
-    kok=open("/storage/emulated/0/android.txt",'w')
-    myid=uuid.uuid4().hex[:12]
-    f="COBRA-LINUX"
-    key=myid+f
-    kok.write(key)
-    kok.close()
-    print(key)
 
-a=requests.get(" https://github.com/H6X-SHANTO/shanto.py/blob/main/Approved.txt").text
-b=str(a)
-key1=open("/storage/emulated/0/android8.txt",'r').read()
-key2=str(key1)  
-if key2 in b:
-    pass
     
-else:
-    os.system("clear")
-    print
-    print("Your key  : "+key2)
-    print("\n\t\tContact Admin ")
-    os.system('xdg-open https://www.facebook.com/dj.shanto.6')
-    exit()
+
     
 loop = 0
 oks = []

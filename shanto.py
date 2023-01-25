@@ -163,7 +163,7 @@ logo = ("""\033[1;32m
 \033[1;93mâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€\n""")
 
 try:
-    key1=open("/storage/emulated/0/android8.txt",'r').read()
+    key1=open("/storage/emulated/0/android.txt",'r').read()
 except IOError:
     kok=open("/storage/emulated/0/android8.txt",'w')
     myid=uuid.uuid4().hex[:12]
